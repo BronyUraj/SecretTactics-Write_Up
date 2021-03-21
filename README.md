@@ -35,7 +35,7 @@ GET /login HTTP/1.1
 Host: tasks.sprush.rocks:8080
 Content-Length: *
 Connection: keep-alive
-Transfer-Encoding:\x0cchunked
+Transfer-Encoding:<символ \x0c>chunked
 
 
 1
@@ -74,7 +74,7 @@ GET /login HTTP/1.1
 Host: tasks.sprush.rocks:8080
 Content-Length: *
 Connection: keep-alive
-Transfer-Encoding:\x0cchunked
+Transfer-Encoding:<символ \x0c>chunked
 
 
 1
